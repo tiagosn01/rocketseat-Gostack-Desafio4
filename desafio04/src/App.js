@@ -1,9 +1,16 @@
 import React from 'react';
-import profile from './assets/profile.jpg'
-import './App.css'
+import Header from './components/Header'
+import PostList from './components/PostList';
+
+import './App.css';
 
 function App() {
-  return <App/>
+  return (
+    <>
+      <Header />
+      <PostList />
+    </>
+  );
 }
 
 export default App;
